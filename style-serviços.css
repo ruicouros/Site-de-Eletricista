@@ -1,0 +1,60 @@
+.titulo-site{
+    text-align: center;
+}
+.logo-site  {
+    position: absolute;
+   
+}
+.navegacao li {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    
+     
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto   ;
+}
+
+}
+header{
+    background: white;
+    padding: 20px 0;}
+
+.caixa1{
+    width: 1280px;
+    height: 1280px;
+    margin: 0 auto;
+    top: 390px;
+    position: relative;
+    
+}
+.item-lista {
+    margin-right: 12px;
+    
+   
+}
+.serviços li {
+    display: inline-block;
+    text-align: center;
+    width: 295px;
+    vertical-align: top;
+    margin: 0%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black ;
+    border-width: 2px ;
+    border-style: solid;
+    border-radius: 10px;
+}
+.serviços li:hover{
+    border-color: yellow;
+    font-weight: bold;
+}
+.imagem {
+    position: relative;
+}

@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>Serviços</title>
+		<link href="style-contato.css" type"text/css" rel = "stylesheet"/>
+		<meta charset-"utf-8" />
+	</head>
+
+
+    <body>
+
+    <header>
+        <div class="caixa">
+            <h1 class="titulo-site">Serviços Elétricos</h1>
+
+            <h1><img class="logo-site" src="eletricista.jpg" width="275px"></h1>
+
+            <nav style="position: absolute; left: 315px; top:  ;"> 
+
+                <ul class="navegacao">
+                    <li><a href="Pagina Inicial.html">Inicio</a></li>
+                    <li><a href="Serviços.html">Serviços</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+             
+    </header>
+
+    <main>
+        <div class="caixa2">
+            <img src="manutencao-eletrica.jpg" class="imagem">
+        </div>
+    
+    </main>
+   
+    <section>
+        
+        <form class="caixa3">
+            <label for="nome-sobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nome-sobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+            <label for="mensagem">Descreva Seu Serviço</label>
+            <textarea cols="30" rows="6" id="mensagem" class="input-padrao" required></textarea>
+
+            <div>
+                <p>Como prefere Nosso Contato ?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" required>Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" required>Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" required checked>Whatsapp</label>
+            </div>
+            <div>
+                <p>Qual horario prefere ser atendido ?</p>
+                <select>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email ?</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+        </form>
+    </section>
+    <div class="caixa3">
+        <p>Horario de Funcionamento</p>
+        <table >
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                     <tr>
+                        <td>Quarta</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                     <tr>
+                        <td>Quinta</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                     <tr>
+                        <td>Sexta</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                     <tr>
+                        <td>Sábado</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                     <tr>
+                        <td>Domingo</td>
+                        <td>8h - 20h</td>
+                     </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    
+
+    </body>
+
+
+</html>
